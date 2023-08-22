@@ -11,7 +11,7 @@ function Overlay() {
         <br />
         mattyp.au
       </a>
-      <div style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }}>personalizatuauto —</div>
+      <div style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }}>@personalizatuauto —</div>
       <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>22/08/2023</div>
     </div>
   )
