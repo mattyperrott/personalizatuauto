@@ -44,7 +44,8 @@ svg {
 }
 
 canvas {
-  opacity: 0;
-  touch-action: none;
-  animation: fade-in 5s ease 0.5s forwards;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
