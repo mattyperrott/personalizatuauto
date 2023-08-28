@@ -9,7 +9,7 @@ title: (FREE) 1972 Datsun 240k GT
 import { useGLTF } from '@react-three/drei'
 
 export function Model({ color, ...props }) {
-  const { nodes, materials } = useGLTF('/datsun-transformed.glb')
+  const { nodes, materials } = useGLTF('/911-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh castShadow receiveShadow geometry={nodes.Cylinder007_alloy_0_1.geometry} material={materials.alloy} />
@@ -28,4 +28,4 @@ export function Model({ color, ...props }) {
   )
 }
 
-useGLTF.preload('/datsun-transformed.glb')
+useGLTF.preload('/911-transformed.glb')
